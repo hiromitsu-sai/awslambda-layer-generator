@@ -7,4 +7,4 @@ REQUIREMENTS=/tmp/requirements.txt
 mkdir -p ${PKGDIR}
 mkdir -p ${OUTPUT}
 pip install -t ${PKGDIR} -r ${REQUIREMENTS}
-zip -q -r ${OUTPUT}/layer.zip ${PKGDIR}
+cd /tmp && zip -q -r ${OUTPUT}/layer.zip .
