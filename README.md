@@ -1,4 +1,4 @@
-# awslambda-layer-generator
+# awslambda-python-layer-generator
 
 aws lambda 用のレイヤーを作る
 
